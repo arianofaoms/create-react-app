@@ -133,6 +133,11 @@ module.exports = function(webpackEnv) {
   };
 
   return {
+    // AOMS-LUMI to view iframe
+    headers: {
+      'X-Frame-Options': 'sameorigin',
+    },
+    // EO AOMS-LUMI to view iframe
     mode: isEnvProduction ? 'production' : isEnvDevelopment && 'development',
     // Stop compilation early in production
     bail: isEnvProduction,
