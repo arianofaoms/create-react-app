@@ -1,5 +1,4 @@
 # Customized create-react-app for AOMSTech.
-## IMPORTANT comment each section of change by starting with AOMS-LUMI -your comment- and end with EO AOMS-LUMI -same comment for easy reference
 
 ## Usage
 
@@ -18,6 +17,8 @@ Happy Coding!
 
 2- Make the changes you wish under the package of choise (for react-scripts-aoms-lumi you obviously have to limit your scope to the react-scripts package under ".../packages/react-scripts")
 
+**IMPORTANT NOTE: Please comment each section of change by starting with AOMS-LUMI -your comment- and end with EO AOMS-LUMI -same comment for easy reference.**
+
 
 3- to publish the package:
 
@@ -32,6 +33,9 @@ npm publish
 4- To see the changes match the version on your react project root package.json with the newly published package and update node_modules.
 
 Enjoy!
+
+
+___
 
 # Create React App [![Build Status](https://dev.azure.com/facebook/create-react-app/_apis/build/status/facebook.create-react-app?branchName=master)](https://dev.azure.com/facebook/create-react-app/_build/latest?definitionId=1&branchName=master) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](https://github.com/facebook/create-react-app/pulls)
 
