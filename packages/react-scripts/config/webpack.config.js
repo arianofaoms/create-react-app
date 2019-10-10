@@ -587,6 +587,7 @@ module.exports = function(webpackEnv) {
         // AOMS-LUMI-BEGIN JQUERY PLUGIN ADDITION
         $: 'jquery',
         jQuery: 'jquery',
+        'window.jQuery': 'jquery',
       }), // AOMS-LUMI-END OF JQUERY PLUGIN ADDITION
       // Generates an `index.html` file with the <script> injected.
       new HtmlWebpackPlugin(
