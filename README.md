@@ -7,6 +7,7 @@ In order to use this package, make sure you start a new react app using the crea
 ```
 create-react-app <<APPNAME>> --scripts-version react-scripts-aoms-lumi
 ```
+
 where react-scripts-aoms-lumi is the name of the NPM package.
 Happy Coding!
 
@@ -14,17 +15,16 @@ Happy Coding!
 
 1- Clone the project on your local device
 
-
 2- Make the changes you wish under the package of choise (for react-scripts-aoms-lumi you obviously have to limit your scope to the react-scripts package under ".../packages/react-scripts")
 
 **IMPORTANT NOTE: Please comment each section of change by starting with AOMS-LUMI -your comment- and end with EO AOMS-LUMI -same comment for easy reference.**
 
-
 3- to publish the package:
 
-* cd to the package of choice
-* make sure you up the version
-* perform 
+- cd to the package of choice
+- make sure you up the version
+- perform
+
 ```
 npm login
 npm publish
@@ -34,8 +34,7 @@ npm publish
 
 Enjoy!
 
-
-___
+---
 
 # Create React App [![Build Status](https://dev.azure.com/facebook/create-react-app/_apis/build/status/facebook.create-react-app?branchName=master)](https://dev.azure.com/facebook/create-react-app/_build/latest?definitionId=1&branchName=master) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](https://github.com/facebook/create-react-app/pulls)
 
@@ -45,7 +44,8 @@ Create React apps with no build configuration.
 - [User Guide](https://facebook.github.io/create-react-app/) – How to develop apps bootstrapped with Create React App.
 
 Create React App works on macOS, Windows, and Linux.<br>
-If something doesn’t work, please [file an issue](https://github.com/facebook/create-react-app/issues/new).
+If something doesn’t work, please [file an issue](https://github.com/facebook/create-react-app/issues/new).<br>
+If you have questions or need help, please ask in our [Spectrum](https://spectrum.chat/create-react-app) community.
 
 ## Quick Overview
 
