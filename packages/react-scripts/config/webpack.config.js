@@ -333,13 +333,6 @@ module.exports = function(webpackEnv) {
         new ModuleScopePlugin(paths.appSrc, [paths.appPackageJson]),
       ],
     },
-    plugins: [
-      new webpack.ProvidePlugin({
-        // AOMS-LUMI-BEGIN JQUERY PLUGIN ADDITION
-        $: 'jquery',
-        jQuery: 'jquery',
-      }), // AOMS-LUMI-END OF JQUERY PLUGIN ADDITION
-    ],
     resolveLoader: {
       plugins: [
         // Also related to Plug'n'Play, but this time it tells Webpack to load its loaders
@@ -590,6 +583,11 @@ module.exports = function(webpackEnv) {
       ],
     },
     plugins: [
+      new webpack.ProvidePlugin({
+        // AOMS-LUMI-BEGIN JQUERY PLUGIN ADDITION
+        $: 'jquery',
+        jQuery: 'jquery',
+      }), // AOMS-LUMI-END OF JQUERY PLUGIN ADDITION
       // Generates an `index.html` file with the <script> injected.
       new HtmlWebpackPlugin(
         Object.assign(
